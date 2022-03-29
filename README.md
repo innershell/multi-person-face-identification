@@ -33,3 +33,7 @@ pip install flask
 ```
 flask run
 ```
+# Curls
+```
+curl -F file=@./melvin.jpg http://127.0.0.1:5000/upload
+```
