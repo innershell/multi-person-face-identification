@@ -34,6 +34,11 @@ pip install flask
 flask run
 ```
 # Curls
+Upload a photo. It will put it into the `/known/` folder with a UUID.
 ```
 curl -F file=@./melvin.jpg http://127.0.0.1:5000/upload
+```
+Match a photo. It will return a true or false result.
+```
+curl -F file=@./unknown.jpg http://127.0.0.1:5000/match
 ```
