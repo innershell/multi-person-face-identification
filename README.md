@@ -6,6 +6,9 @@ Uses face recognition technology for authorization following the "multiple perso
 - [dlib](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf) is a state-of-the-art face recognition built with deep learning. The model has an accuracy of 99.38% on the Labeled Faces in the Wild benchmark.
 - [Flask v2.1](https://flask.palletsprojects.com/en/2.1.x/) is a micro web framework written in Python.
 
+# Documentation
+- [face-recognition API doc](https://face-recognition.readthedocs.io/en/latest/face_recognition.html)
+
 # Setup
 ## Install `cmake`
 Note: `apt` is a package manager for Ubuntu linux. Use the appropriate method to install `cmake` in your operating system.

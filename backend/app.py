@@ -43,6 +43,6 @@ def match():
     results = face_recognition.compare_faces([known_encoding], unknown_encoding)
 
     if results[0]:
-      return "<p>This is a match!</p>"
+      return "<p>This is Melvin!</p>"
     else:
-      return "<p>Not a match</p>"
+      return "<p>Don't know who you are.</p><br>"
